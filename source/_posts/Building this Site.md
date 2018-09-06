@@ -54,7 +54,8 @@ $ hexo server
 
 If this works and testing is successful, generate and deploy your site.
 
-$ hexo -g deploy
+$ hexo generate
+$ hexo deploy
 
 If you run into issues around Python as the runtime, edit node_modules/hexo-deployer-appengine/templates/pub/app.yaml from "python" to "python27"
 
